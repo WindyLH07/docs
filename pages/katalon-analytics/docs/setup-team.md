@@ -75,7 +75,7 @@ A Katalon TestOps project is a handful of reports generated based on a dataset o
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_setting_project_manage.png)
 
-* On the top right corner, click the button **Create Project**, select the team in **Choose Team**, and click the button **Next**. 
+* On the top right corner, click the button **Create Project**, select the team in **Choose Team**, and click the button **Next**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_creat_new_team.png)
 
