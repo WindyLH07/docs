@@ -1,13 +1,16 @@
 ---
-title: "Visual Testing" 
+title: "Visual Testing in Katalon TestOps" 
 sidebar: katalon_studio_docs_sidebar
 permalink: /katalon-analytics/docs/ks-visual-testing.html 
 redirect_from:
-description: Katalon TestOps Visual Testing is a feature to help us compare screenshots between executions.
+description: This Katalon TestOps feature helps users compare screenshots between executions.
 ---
 
-Katalon TestOps Visual Testing is a feature to help us compare screenshots of executions.
+In Katalon TestOps, you can use Visual Testing feature to compare screenshots of test executions.
 
+> Requirements:
+>
+> You have run a Test Suite in Katalon Studio and uploaded Test Results to Katalon TestOps. See: [Katalon Studio Integration] 
 On Katalon Studio, go to **Menu Project** > **Settings**. The board **Project Settings** displays, click **Katalon TestOps** on the left sidebar. We choose **Team** and **Project**, then click **Apply and Close**. And now, we integrate the current Katalon Studio project with Katalon TestOps.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_visual_testing/ks_project_setting_kt.png)
