@@ -4,45 +4,25 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/license_activation.html
 description:
 ---
-In this guide, you will learn to activate and use Katalon Studio Enterprise (KSE) and Katalon Runtime Engine (KRE) licenses.
+In this guide, you will learn to activate the Katalon Studio Enterprise (KSE) and Katalon Runtime Engine (KRE) licenses.
 
-## Use the KSE/KRE license online
+## Activate the KSE/KRE online license
 
 > Requirements:
 >
 > You have been added to the **Licensed Users** list. Contact your Owner/Admin if you haven't been granted a license.
 
+After the Owner/Admins grant you a license, you can automatically use KSE. See: [Activate KSE](https://docs.katalon.com/katalon-studio/docs/activate-KSE.html).
+
+You also activate the KRE licenses by simply using KRE online.
+
 > Notes:
-> 
-> After the Owner/Admins grant you a license, you can automatically use KSE. You also activate the KRE licenses online by simply using KRE.
+>
+> From **version 7.7 onwards**, if you belong to more than one Organization purchasing KRE licenses, you can choose which organization to validate your license usage. Katalon retrieves and displays the organizations bound to your Katalon account. Once you have selected an Organization, you pass the Organization ID to the generated command (`-orgID=<Katalon_OrgID>`).
 
-To run KSE using KRE, follow these steps:
-
-1. Open Katalon Studio and log in to your account.
-
-2. In the command generator, generate a command with the auto-filled Katalon API Key and customized information.
-
-    > Notes:
-    >
-    > From **version 7.7 onwards**, if you belong to more than one Organization purchasing KRE licenses, you can choose which organization to validate your license usage. Katalon retrieves and displays the organizations bound to your Katalon account. Once you have selected an Organization, you pass the Organization ID to the generated command (`-orgID=<Katalon_OrgID>`).
-
-3. Copy and paste the generated command into the Terminal (for MacOS/Linux) or Command Prompt (for Windows).
-
-4. Open the Terminal/Command Prompt and navigate to the Katalon Studio Engine folder `katalonc.exe` (for Windows), or Applications folder (for MacOS), or `katalonc` file (for Linux).
-
-    For example, for MacOS:
-
-    ```groovy
-    cd /Applications/Katalon\ Studio\ Engine.app/Contents/MacOS
-    ```
-
-5. Enter the following syntax to execute test automation:
-
-    `katalonc -noSplash -runMode=console -consoleLog -noExit -projectPath="C:\Users\Katalon Studio\Project\YourProject.prj" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome (headless)" -apiKey=abczxzxz -orgID=123xx`
-
-    > Notes:
-    >
-    > See [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#katalon-studio-plugins-in-console-mode) for further instructions on working with KRE.
+> Notes:
+>
+> See [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#katalon-studio-plugins-in-console-mode) for further instructions on working with KRE.
 
 For an Enterprise user with a private network, you might encounter a situation where you fail to execute test scripts or integrate Katalon Studio due to the network security error. In such case, contact your IT team to whitelist the following domains:
 
@@ -57,7 +37,7 @@ For an Enterprise user with a private network, you might encounter a situation w
 >
 > See also [Install Runtime Engine](https://docs.katalon.com/katalon-studio/docs/install-RE.html) for installing and executing KRE.
 
-## Use the KSE/KRE license offline
+## Activate the KSE/KRE offline license
 
 > Notes:
 >
