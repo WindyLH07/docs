@@ -14,7 +14,7 @@ In this guide, you will learn to activate and use Katalon Studio Enterprise (KSE
 
 > Notes:
 > 
-> After the Owner/Admins grant you a license, you activate the KSE/KRE licenses online by simply using KSE/KRE. Once you start using KSE/KRE online, your machine ID is automatically added in the **Online Licenses** section in Katalon TestOps.
+> After the Owner/Admins grant you a license, you can automatically use KSE. You also activate the KRE licenses online by simply using KRE.
 
 To run KSE using KRE, follow these steps:
 
@@ -67,6 +67,7 @@ For an Enterprise user with a private network, you might encounter a situation w
 > 1. Download and open Katalon Studio.
 > 2. In the **Katalon Studio Enterprise Activation** log, click **Offline Activation** to view and copy the machine ID.
 > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-offline-kse-licenses/view-machineid.png" width="494" height="" alt="kse activation log">
+>
 > 3. Send the machine ID to the Owner/Admins.
 
 ### For KSE
