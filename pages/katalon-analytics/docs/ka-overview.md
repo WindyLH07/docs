@@ -42,7 +42,7 @@ Using Test Management, you can monitor test analytics for your projects.
 
 You can also leverage it to gain critical insights into test results and integrate seamlessly with Katalon Studio and Jira for more efficient project management. 
 
-Learn more about [Test Management](https://docs.katalon.com/katalon-analytics/docs/compare-test-results.html).
+Learn more about [Test Management](https://docs.katalon.com/katalon-analytics/docs/test-mgt-overview.html).
 
 ## Reports & Analytics
 
