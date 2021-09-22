@@ -32,29 +32,37 @@ On the **Requirements** page, you can check the following information:
 
     * The **Traceability Matrix** tab will show you a list of requirements, with their test cases, test results and defects.
     
-* The list of all requirements in details.
+* The list of all requirements in details (Type, Name, Jira tickets, number of Test Cases).
 
 ## Test Cases
 
 On the **Test Cases** page, you can check the following information:
 
-* The total number of test cases (including both the passed and failed ones).
+* The total number of test cases, including both passed and failed test cases.
 * Reports on test flakiness and Platform Coverage.
 
     * The **Flaky** tab will show you the most unreliable test cases.
-    * The **Platform Coverage** tab will show you test case quality based on Operating System (OP) and browsers.
+    * The **Platform Coverage** tab will show you test case quality based on operating systems (OS) and browsers.
 
-* The list of all test cases in details.
+        The color of the dot indicates that the test has passed or failed.
+
+        Red dot = failed test
+        
+        Green dot = passed test
+
+        The size of the dot represents the number of tests (e.g., the bigger the dot is, the more tests are).
+
+* The list of all test cases in details (Name, Status, Maintainer, Last Test Run, Average Duration, Flakiness, Requirements).
 
 ## Test Suites
 
 On the **Test Suites** page, you can check the following information:
-* The total number of test suites (including both the passed and failed ones).
-* The list of all test suites in details.
+* The total number of test suites, including both passed and failed test suites.
+* The list of all test suites in details (Status, Name, Time, Total of Test Cases).
 
 ## Defects
 
-On the **Defects** page, you can see the list of all Jira bugs in details.
+On the **Defects** page, you can see the list of all Jira bugs in details (Type, Key, Name).
 
 > Notes:
 >
