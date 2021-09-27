@@ -50,7 +50,7 @@ On the **Test Cases** page, you can check the following information:
         
         Green dot = passed test
 
-        The size of the dot represents the number of tests (e.g., the bigger the dot is, the more tests are).
+        The bigger the dot is, the more tests were executed.
 
 * The list of all test cases in details (Name, Status, Maintainer, Last Test Run, Average Duration, Flakiness, Requirements).
 
