@@ -1327,6 +1327,8 @@ items:
             url: /katalon-analytics/docs/kt-build.html
       - title: "Test Management"
         tree:
+          - title: "Overview"
+            url: /katalon-analytics/docs/test-mgt-overview.html
           - title: "Writing BDD in Jira"
             url: /katalon-analytics/docs/bdd-settings.html
           - title: "View BDD Test Results"
