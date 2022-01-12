@@ -5,43 +5,10 @@ permalink: katalon-analytics/docs/code-repo.html
 description: 
 ---
 
-In Katalon TestOps, you can store your Test Scripts in a Script Repository. A Script Repository helps you manage and organize your Test Projects better for Remote Execution.
+TestOps no longer supports this feature.
 
-You can upload your Test Scripts as a .zip file from your local machine.
+You can no longer upload test scripts as a .zip file to a script repository in Katalon TestOps.
 
-## Upload Test Scripts as a .zip file
+For existing users, you can continue using the current .zip script repositories for scheduling test runs. However, you cannot edit the script repositories nor upload a new .zip file.
 
-Follow these steps:
-1. Sign in to [Katalon TestOps]( https://testops.katalon.io/login) and go to your Project. 
-
-    The **Dashboard** page appears.
-    
-2. Go to **Configurations** > **Script Repositories**.
-
-    The **Script Repositories** page appears.
-
-3. Click on the **Create Script Repository** button.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-code-repo/create-script-repo-page-2.png" width=100% alt="create script repo page">
-
-    Fill in the following information:
-    * **Name**: enter a name for your Project.
-    * **Description**: give detailed information of the Project.
-    * **Upload**: click on the **Choose Files** button and browse for the compressed Project code in your local machine.
-
-    > Notes:
-    >
-    > You can only upload a .zip file.
-
-4. Click **Create**.
-
-You can see the uploaded Test Scripts in the **Script Repositories** page.
-
-See also:
-* [Set up Configurations for Remote Execution](https://docs.katalon.com/katalon-analytics/docs/test-run-config.html).
-
-* [Upload Test Scripts from a Git Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html).
-
-* [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
-
-* [Execute Test Runs](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).
+The best practice is to upload test scripts from a Git repository. We encourage you to use the Git script repository for version control. See: [Upload Test Scripts from a Git Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html).
