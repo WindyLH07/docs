@@ -31,10 +31,9 @@ Once you have created a Test Environment, you can upload tests to a Script Repos
 
 A Script Repository stores test scripts for test executions. You can manage your test scripts in Katalon TestOps and decide upon the execution schedule (test planning) and execution environment (the Test Environment you have created).
 
-Katalon TestOps offers the following options:
+Katalon TestOps offers the following option:
 
-* Create a Script Repository. See: [Upload Test Scripts to a Script Repository](https://docs.katalon.com/katalon-analytics/docs/code-repo.html).
-* Create a Git Script Repository (GitHub and Bitbucket). See: [Upload Test Scripts from a Git Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html).
+* Create a Git Script Repository (Azure Repository, GitLab, GitHub and Bitbucket). See: [Upload Test Scripts from a Git Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html).
 
 With a set-up Test Environment and Script Repository, your tests are ready for execution in Katalon TestOps.
 
